@@ -20,4 +20,26 @@ button{
    color: rgb(0, 0, 0);
    font-size: 16px;
    cursor: pointer;
+
+}
+@media (max-width: 1024px) {
+    video {
+        object-fit: cover;
+    }
+
+    button {
+        bottom: 15px;
+        right: 15px;
+        padding: 10px 14px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px) {
+    button {
+        bottom: 10px;
+        right: 10px;
+        font-size: 12px;
+        padding: 8px 12px;
+    }
 }
