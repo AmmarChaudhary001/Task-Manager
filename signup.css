@@ -73,7 +73,7 @@ input::placeholder{
     font-size: 20px;
     color: #000000;
 }
-#otp{
+#continue{
    position: absolute;
   bottom: 20px;
   right: 20px;
@@ -106,4 +106,60 @@ form {
     font: 30px;
     color: #000000;
     font-weight: 100;
+}
+
+@media (max-width: 1024px) {
+    #container1{
+        visibility: hidden;
+    } 
+    #container2 {
+        margin-left: 0;
+        margin-right: 0;
+        width: 90%;
+        height: auto;
+    }
+
+    form {
+        height: auto;
+    }
+
+    input.input_data {
+        font-size: 20px;
+        height: 45px;
+    }
+
+    #continue, .btn1 {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        margin-top: 15px;
+    }
+
+    h4, h5 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 600px) {
+    h4 {
+        font-size: 25px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    input.input_data {
+        font-size: 18px;
+        height: 40px;
+    }
+
+    #continue, .btn1 {
+        font-size: 14px;
+        padding: 10px 14px;
+    }
+
+    #suggest {
+        font-size: 20px;
+    }
 }
