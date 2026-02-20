@@ -1,0 +1,23 @@
+video{
+     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;   /* Makes video cover entire screen */
+    z-index: -1;
+}
+
+button{
+    position: absolute;
+   bottom: 20px;
+   right: 20px;
+   padding: 12px 18px;
+   border: 1px solid #00000087;
+   border-radius: 8px;
+   opacity: 0.5;
+   background-color: rgb(135,206,235);
+   color: rgb(0, 0, 0);
+   font-size: 16px;
+   cursor: pointer;
+}

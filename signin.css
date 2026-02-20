@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: url(3d-dark-grunge-smoky-interior-with-spotlight.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#main {
+    position: relative;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 40px;
+  height: 100%;
+  box-sizing: border-box;
+ 
+  border-radius: 30px;
+  
+}
+
+.container {
+  width: 450px;
+  height: 500px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgb(135, 207, 235);
+  opacity: 0.5;
+ 
+}
+#container1{
+    background-image: url(Shading\ Colors\ Painting\ Worksheet\ \(2\)_page-0001.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.6;
+    margin-left: 250px;
+}
+#container2{
+    position: relative;
+    margin-right: 250px;
+
+}
+.input_data{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border:1px solid rgba(0, 0, 0, 0.084);
+    opacity: 0.4;
+    font-size: larger;
+    color: #000000;
+    
+}
+label{
+    font-size: medium;
+}
+h4{
+    text-align: center;
+    text-shadow: 5px;
+    font-size: 50px;
+    color: #FFF;
+}
+#Login{
+   position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 12px 18px;
+  border: 1px solid #00000087;
+  border-radius: 8px;
+  background-color: rgb(135,206,235);
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn1{
+    position: absolute;
+    top: 20px;
+    justify-content: center;
+    align-content: center;
+    padding: 12px 18px;
+    border: 1px solid #00000087;
+    border-radius: 8px;
+    background-color: rgb(135,206,235);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    cursor: pointer;
+}
+.hide{
+    visibility: hidden;
+}

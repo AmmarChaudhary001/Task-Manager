@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="Task.css">
+    <link rel="icon" type="image/png" href="Red and Pink Dainty Minimalist Invite Valentine's Day Poster.png">
+</head>
+<body>
+        <div class="head">
+            <h1>Welcome to our Task Manager!</h1>
+        </div>
+        <div class="search">
+        <select name="" id="search">
+        <option value="All">All</option>
+        <option value="Pending">Pending</option>
+        <option value="Completed">Completed</option>
+    </select>
+    <button id="search_btn">Search</button>
+    </div>
+    <div class="form">
+        <fieldset >
+        <form action="" class="task-card">
+        <p class="task_head">   Let's Add Your Daily Task   </p>
+        <input type="text" placeholder="Enter Task:" name="Task" id="getTask" required/>
+        <select name="select" value="status" id="choice" aria-placeholder="Select Status">
+            <option class="disable" value="">Select Status</option>
+            <option value="Pending">Pending</option>
+            <option value="Completed">Completed</option>
+        </select>
+         <input type="date" name=""  id="date">
+         <p class="t-head"><b>Task Table</b></p>
+         <div class="table">
+         <table>
+            <thead>
+        <tr>
+            <th>Task Name</th>
+            <th>Date</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody id="tableBody">
+    </tbody>
+         </table>
+    </div>
+         </div>
+        <div class="savebtn">
+             <button class="save" type="submit">Save</button>
+        </div>
+    </form>
+    </fieldset>
+    <script src="Task.js"></script>
+</body>
+</html>
