@@ -85,19 +85,7 @@ input::placeholder{
   font-size: 16px;
   cursor: pointer;
 }
-.btn1{
-    position: absolute;
-    top: 20px;
-    justify-content: center;
-    align-content: center;
-    padding: 12px 18px;
-    border: 1px solid #00000087;
-    border-radius: 8px;
-    background-color: rgb(135,206,235);
-    color: rgb(0, 0, 0);
-    font-size: 16px;
-    cursor: pointer;
-}
+
 form {
         height: 250px;
         margin-top: 20px;
@@ -128,7 +116,7 @@ form {
         height: 45px;
     }
 
-    #continue, .btn1 {
+    #continue{
         position: relative;
         bottom: 0;
         right: 0;
@@ -154,7 +142,7 @@ form {
         height: 40px;
     }
 
-    #continue, .btn1 {
+    #continue{
         font-size: 14px;
         padding: 10px 14px;
     }
@@ -163,3 +151,4 @@ form {
         font-size: 20px;
     }
 }
+
