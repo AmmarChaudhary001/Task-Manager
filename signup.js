@@ -10,7 +10,7 @@ let signup_arr2=JSON.parse(localStorage.getItem("signups"))||[];
 signup_btn.addEventListener("click",(evt)=>{
     evt.preventDefault();
 
-    const email_input2=email.value.trim();
+    const email_input2=email.value.trim().toLowerCase();
     const pass_input2=password.value.trim();
     const confirm_key=confirmPass.value.trim();
 
@@ -48,4 +48,5 @@ signup_btn.addEventListener("click",(evt)=>{
     },2000);
 
 }) ;
+
 
