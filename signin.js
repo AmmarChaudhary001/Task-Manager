@@ -4,8 +4,6 @@ const login_btn=document.querySelector("#Login");
 const signup_btn=document.querySelector("#signup");
 
 
-let signup_arr2=JSON.parse(localStorage.getItem("signups"))||[];
-
 
 signup_btn.addEventListener("click",(evt)=>{
     evt.preventDefault();
@@ -19,8 +17,10 @@ signup_btn.addEventListener("click",(evt)=>{
 login_btn.addEventListener("click", (evt)=>{
    evt.preventDefault();
 
-   const email_input1=email.value;
-   const pass_input1=password.value;
+   const email_input1=email.value.trim().toLowerCase();
+   const pass_input1=password.value.trim();
+
+   let signup_arr2=JSON.parse(localStorage.getItem("signups"))||[];
 
    let isvaliduser=false;
    for(let user of signup_arr2){
@@ -39,6 +39,7 @@ login_btn.addEventListener("click", (evt)=>{
             return;
         }
 })
+
 
 
 
